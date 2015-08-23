@@ -9,7 +9,7 @@ setup(
     author='Andrey Nikishaev',
     author_email='creotiv@gmail.com',
     url='https://github.com/creotiv/django-fuzzytest',
-    download_url = 'https://github.com/creotiv/django-fuzzytest/tarball/0.1.0'
+    download_url = 'https://github.com/creotiv/django-fuzzytest/tarball/0.1.0',
     keywords = ['testing', 'django', 'fuzzy'], 
     license='BSD',
     packages=find_packages(exclude=('tests.*', 'tests')),
