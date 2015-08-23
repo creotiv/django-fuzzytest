@@ -1,0 +1,14 @@
+*.pyc
+*.DS_Store
+*~
+env
+build
+.coverage
+dist
+django_debug_toolbar_cprofiler.egg-info
+docs/_build
+htmlcov
+.tox
+*.sql
+*.sqlite
+*.egg-info

@@ -1,0 +1,40 @@
+{"files": [], "path": "/admin/", "post": [], "method": "GET", "get": []}
+{"files": [], "path": "/admin/logout/", "post": [], "get": []}
+{"files": [], "path": "/admin/", "post": [], "get": []}
+{"files": [], "path": "/admin/login/", "post": [], "get": ["next"]}
+{"files": [], "path": "/admin/login/", "post": ["username", "csrfmiddlewaretoken", "password", "next"], "get": ["next"]}
+{"files": [], "path": "/admin/", "post": [], "get": []}
+{"files": [], "path": "/admin/auth/user/", "post": [], "get": []}
+{"files": [], "path": "/admin/jsi18n/", "post": [], "get": []}
+{"files": [], "path": "/admin/auth/user/", "post": [], "get": ["q"]}
+{"files": [], "path": "/admin/jsi18n/", "post": [], "get": []}
+{"files": [], "path": "/admin/auth/user/", "post": [], "get": ["q", "o"]}
+{"files": [], "path": "/admin/jsi18n/", "post": [], "get": []}
+{"files": [], "path": "/admin/auth/user/", "post": [], "get": ["q", "o"]}
+{"files": [], "path": "/admin/jsi18n/", "post": [], "get": []}
+{"files": [], "path": "/admin/auth/user/", "post": [], "get": ["q", "o"]}
+{"files": [], "path": "/admin/jsi18n/", "post": [], "get": []}
+{"files": [], "path": "/admin/auth/user/", "post": [], "get": ["q", "o"]}
+{"files": [], "path": "/admin/jsi18n/", "post": [], "get": []}
+{"files": [], "path": "/admin/auth/user/", "post": [], "get": ["q", "is_active__exact", "o"]}
+{"files": [], "path": "/admin/jsi18n/", "post": [], "get": []}
+{"files": [], "path": "/example/", "post": [], "get": []}
+{"files": [], "path": "/example/", "post": [], "get": []}
+{"files": [], "path": "/example/", "post": [], "get": ["i"]}
+{"files": [], "path": "/example/", "post": [], "get": ["i"]}
+{"files": [], "path": "/admin/", "post": [], "get": []}
+{"files": [], "path": "/admin/login/", "post": [], "get": ["next"]}
+{"files": [], "path": "/admin/login/", "post": ["username", "csrfmiddlewaretoken", "password", "next"], "get": ["next"]}
+{"files": [], "path": "/admin/", "post": [], "get": []}
+{"files": [], "path": "/admin/auth/user/", "post": [], "get": []}
+{"files": [], "path": "/admin/jsi18n/", "post": [], "get": []}
+{"files": [], "path": "/admin/auth/user/", "post": [], "get": ["q"]}
+{"files": [], "path": "/admin/jsi18n/", "post": [], "get": []}
+{"files": [], "path": "/admin/auth/user/", "post": [], "get": ["o"]}
+{"files": [], "path": "/admin/jsi18n/", "post": [], "get": []}
+{"files": [], "path": "/admin/auth/user/", "post": [], "get": ["q"]}
+{"files": [], "path": "/admin/jsi18n/", "post": [], "get": []}
+{"files": [], "path": "/admin/auth/user/", "post": [], "get": ["q", "is_active__exact", "o"]}
+{"files": [], "path": "/admin/jsi18n/", "post": [], "get": []}
+{"files": [], "path": "/admin/login/", "post": [], "get": []}
+{"files": [], "path": "/admin/", "post": [], "get": []}
