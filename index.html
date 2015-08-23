@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Django-fuzzytest by creotiv</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Django-fuzzytest</h1>
+        <p>This is the automatic Fuzzy Test tool for testing Django applications.</p>
+
+        <p class="view"><a href="https://github.com/creotiv/django-fuzzytest">View the Project on GitHub <small>creotiv/django-fuzzytest</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/creotiv/django-fuzzytest/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/creotiv/django-fuzzytest/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/creotiv/django-fuzzytest">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="django-fuzzy-test" class="anchor" href="#django-fuzzy-test" aria-hidden="true"><span class="octicon octicon-link"></span></a>Django Fuzzy Test</h1>
+
+<p>This is the automatic Fuzzy Test tool for testing Django applications.
+It generates url and params map based on your activity on dev server and then use it to fuzzy test your application.</p>
+
+<h2>
+<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use</h2>
+
+<p>Add to installed applications</p>
+
+<pre><code>INSTALLED_APPS += ('django_fuzzytest',)
+</code></pre>
+
+<p>Run fuzzyserver to collect url and params cache:</p>
+
+<pre><code>python manage.py fuzzyserver --cache=.fuzzycache
+</code></pre>
+
+<p>After data was collected you can start testing:</p>
+
+<pre><code>python manage.py fuzzytest --cache=.fuzzycache
+</code></pre>
+
+<h3>
+<a id="heres-a-screenshot-of-the-tool-in-action" class="anchor" href="#heres-a-screenshot-of-the-tool-in-action" aria-hidden="true"><span class="octicon octicon-link"></span></a>Here's a screenshot of the tool in action:</h3>
+
+<p><img src="https://raw.github.com/creotiv/django-fuzzytest/master/example.png" alt="Preview"></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/creotiv">creotiv</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
