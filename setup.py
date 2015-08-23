@@ -2,14 +2,14 @@ from setuptools import setup, find_packages
 from io import open
 
 setup(
-    name='django-fuzzysearch',
+    name='django-fuzzytest',
     version='0.1.0',
     description='This is the automatic Fuzzy Test tool for testing Django applications.',
     long_description=open('README.rst', encoding='utf-8').read(),
     author='Andrey Nikishaev',
     author_email='creotiv@gmail.com',
-    url='https://github.com/creotiv/django-fuzzysearch',
-    download_url = 'https://github.com/creotiv/django-fuzzysearch/tarball/0.1.0'
+    url='https://github.com/creotiv/django-fuzzytest',
+    download_url = 'https://github.com/creotiv/django-fuzzytest/tarball/0.1.0'
     keywords = ['testing', 'django', 'fuzzy'], 
     license='BSD',
     packages=find_packages(exclude=('tests.*', 'tests')),
