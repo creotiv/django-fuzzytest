@@ -9,6 +9,8 @@ setup(
     author='Andrey Nikishaev',
     author_email='creotiv@gmail.com',
     url='https://github.com/creotiv/django-fuzzysearch',
+    download_url = 'https://github.com/creotiv/django-fuzzysearch/tarball/0.1.0'
+    keywords = ['testing', 'django', 'fuzzy'], 
     license='BSD',
     packages=find_packages(exclude=('tests.*', 'tests')),
     install_requires=[
