@@ -12,7 +12,7 @@ setup(
     download_url = 'https://github.com/creotiv/django-fuzzytest/tarball/0.1.0',
     keywords = ['testing', 'django', 'fuzzy'], 
     license='BSD',
-    packages=find_packages(exclude=('tests.*', 'tests')),
+    packages=find_packages(exclude=('tests.*', 'tests', 'example')),
     install_requires=[
         'django>=1.6',
     ],
